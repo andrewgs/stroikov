@@ -1,0 +1,33 @@
+table { 
+  border: 3px double #999;
+  border-collapse:collapse;
+}
+
+tr.chapter td { background: #dad8cd; }
+
+th {
+  font: bold 10px/22px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; color: #465f65;
+  border: 1px solid #999;
+  border-left: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align:left;
+  padding: 4px 10px 3px;
+  background: #bdd19d;
+  vertical-align:middle;
+}
+
+td {
+  font: normal 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 3px 8px;
+  color: #465f65;
+  text-align:left;
+  white-space: nowrap;
+  background: #fff;
+}
+
+td.bold { font-weight: bold; }
+
+span.not-printable { display: none; }

@@ -1,0 +1,101 @@
+<?php  if(!defined('BASEPATH')) exit('No direct script access allowed');
+$route['default_controller'] = "users_interface";
+$route['scaffolding_trigger'] = "";
+
+$route['about'] 		= "users_interface/about";
+$route['price'] 		= "users_interface/price";
+$route['contacts'] 		= "users_interface/contacts";
+$route['investment'] 	= "users_interface/investment";
+$route['partners'] 		= "users_interface/partners";
+$route['units'] 		= "users_interface/units";
+$route['newsview/:num'] = "users_interface/viewonesnews";
+$route['news'] 			= "users_interface/newsviewslist";
+$route['news/:num'] 	= "users_interface/newsviewslist";
+
+$route['stroitelnaya-kompaniya-stroikov'] 					= "users_interface/companyinfo";
+$route['dizain-interierov-remont-kvartir-ofisov-rostov'] 	= "users_interface/companyinfo";
+$route['futbolnaya-komanda-kompanii-stroikov'] 				= "users_interface/companyinfo";
+
+$route['send-mail'] 	= "users_interface/formsendmail";
+$route['unitsinfo/:num'] = "users_interface/unitsinfo";
+$route['sendmail'] 		= "users_interface/sendingmail";
+
+/***********************************************************************************************************/
+
+$route['admin'] 				= "admin_interface/control_panel";
+$route['admin/control-panel'] 	= "admin_interface/control_panel";
+$route['admin/delete-message'] 	= "admin_interface/delete_message";
+$route['admin/company'] 		= "admin_interface/companylist";
+$route['admin/delete-company'] = "admin_interface/delete_company";
+$route['admin/companyedit/:num/upload'] = "admin_interface/company_edit";
+$route['admin/companyedit/:num'] = "admin_interface/company_edit";
+$route['admin/companyedit/:num/upload'] = "admin_interface/uploadimage/companyedit/";
+$route['admin/companyedit/:num/imagedelete'] = "admin_interface/imagedelete/companyedit/";
+
+$route['admin/newsview'] 		= "admin_interface/newsview";
+$route['admin/newsedit/:num'] 	= "admin_interface/newsedit";
+$route['admin/newsnew'] 		= "admin_interface/newsnew";
+$route['admin/newsinsert'] 		= "admin_interface/newsinsert";
+$route['admin/newsupdate'] 		= "admin_interface/newsupdate";
+$route['admin/newsdestroy/:num'] = "admin_interface/newsdestroy";
+$route['admin/companyview']		 = "admin_interface/companyview";
+$route['admin/companynew'] 		= "admin_interface/companynew";
+$route['admin/companyinsert'] 	= "admin_interface/companyinsert";
+$route['admin/companyupdate'] 	= "admin_interface/companyupdate";
+$route['admin/companydestroy/:num'] = "admin_interface/companydestroy";
+$route['admin/unitsview'] 		= "admin_interface/unitsview";
+$route['admin/unitsnew'] 		= "admin_interface/unitsnew";
+$route['admin/unitsinsert'] 	= "admin_interface/unitsinsert";
+$route['admin/unitsinfo/:num'] = "admin_interface/unitsinfo";
+$route['admin/unitsedit/:num'] = "admin_interface/unitsedit";
+$route['admin/unitsupdate'] 	= "admin_interface/unitsupdate";
+$route['admin/unitsdestroy/:num'] = "admin_interface/unitsdestroy";
+$route['admin/partnersview'] 	= "admin_interface/partnersview";
+$route['admin/partnernew'] 		= "admin_interface/partnernew";
+$route['admin/partnerinsert'] 	= "admin_interface/partnerinsert";
+$route['admin/partneredit/:num'] = "admin_interface/partneredit";
+$route['admin/partnerupdate'] 	= "admin_interface/partnerupdate";
+$route['admin/partnerdestroy/:num'] = "admin_interface/partnerdestroy";
+$route['admin/contactsview'] 	= "admin_interface/contactsview";
+$route['admin/contactedit/:num'] = "admin_interface/contactedit";
+$route['admin/contactupdate'] 	= "admin_interface/contactupdate";
+$route['admin/emailsview'] 		= "admin_interface/emailsview";
+$route['admin/emaildestroy/:num'] = "admin_interface/emaildestroy/";
+$route['admin/uploadimage'] 	= "admin_interface/uploadimage/";
+$route['admin/login'] 			= "admin_interface/login";
+$route['admin/logoff'] 			= "admin_interface/logoff";
+$route['admin/profile'] 		= "admin_interface/profile";
+$route['admin/profileupdate'] 	= "admin_interface/profileupdate";
+$route['admin/aboutedit'] 		= "admin_interface/aboutedit";
+$route['admin/aboutupdate'] 	= "admin_interface/aboutupdate";
+$route['admin/investmentview'] 	= "admin_interface/investmentview";
+$route['admin/investmentedit/:num'] = "admin_interface/investmentedit";
+$route['admin/investmentupdate'] = "admin_interface/investmentupdate";
+$route['admin/investmentnew'] 	= "admin_interface/investmentnew";
+$route['admin/investmeninsert'] = "admin_interface/investmeninsert";
+$route['admin/investmentdestroy/:num'] = "admin_interface/investmentdestroy";
+$route['admin/aboutedit/upload'] = "admin_interface/uploadimage/aboutedit";
+$route['admin/aboutedit/imagedelete'] = "admin_interface/imagedelete/aboutedit";
+$route['admin/imagedestroy/:num/admin/aboutedit'] = "admin_interface/imagedestroy";
+$route['admin/investmentedit/:num/upload'] = "admin_interface/uploadimage/investmentedit";
+$route['admin/investmentedit/:num/imagedelete'] = "admin_interface/imagedelete/investmentedit";
+$route['admin/imagedestroy/:num/admin/investmentedit/:num'] = "admin_interface/imagedestroy";
+$route['admin/unitsedit/:num/upload'] = "admin_interface/uploadimage/unitsedit";
+$route['admin/unitsedit/:num/imagedelete'] = "admin_interface/imagedelete/unitsedit";
+$route['admin/imagedestroy/:num/admin/unitsedit/:num'] = "admin_interface/imagedestroy";
+$route['admin/textedit/partners'] = "admin_interface/textedit";
+$route['admin/textupdate'] 		= "admin_interface/textupdate";
+$route['admin/priceview'] 		= "admin_interface/priceview";
+$route['admin/textedit/price'] 	= "admin_interface/textedit";
+
+$route['admin/companyedit/:num/subsections'] = "admin_interface/subsections";
+$route['admin/companyedit/:num/subsection/create'] = "admin_interface/subsection_create/";
+$route['admin/subsectioninsert'] = "admin_interface/subsectioninsert";
+$route['admin/subsectionupdate'] = "admin_interface/subsectionupdate";
+$route['admin/companyedit/:num/subsection/destroy/:num'] = "admin_interface/subsection_destroy";
+$route['admin/companyedit/:num/subsection/edit/:num'] = "admin_interface/subsection_edit/";
+$route['admin/companyedit/:num/subsection/edit/:num/upload'] = 'admin_interface/uploadimage/subsectionedit/';
+$route['admin/companyedit/:num/subsection/edit/:num/imagedelete'] = 'admin_interface/imagedelete/subsectionedit/';
+
+$route['admin/imagedestroy/:num/admin/companyedit/:num/subsection/edit/:num'] = "admin_interface/imagedestroy";
+$route['admin/imagedestroy/:num/admin/companyedit/:num'] = "admin_interface/imagedestroy";

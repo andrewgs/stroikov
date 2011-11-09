@@ -1,0 +1,6 @@
+﻿#header { height: 5.5em; }
+#logo 	{ margin: 0; }
+#header-menu { float: none; list-style: none; margin-top: 35px; }
+	#header-menu li   { float: right; margin-right: 1em; }
+	#header-menu li a { font: 1.1em/1.2em arial, sans-serif; color: #454037; text-decoration: none; }
+	#header-menu li img { padding: 0; width: 12px; height: 12px; display: none; }
