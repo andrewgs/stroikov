@@ -1,13 +1,17 @@
-ï»¿AddDefaultCharset utf-8
+AddDefaultCharset utf-8
 Options +FollowSymLinks
 Options -Indexes
 DirectoryIndex index.php
 php_flag register_globals on
-php_value upload_max_filesize 10M
+php_value upload_max_filesize 5M
 RewriteEngine On
 RewriteBase /
 RewriteCond $1 !^(index\.php|images|robots\.txt|public)
-RewriteCond %{REQUEST_URI} !\.(cssâ”‚jsâ”‚jpgâ”‚gif)$
+RewriteCond %{REQUEST_URI} !\.(css|js|jpg|gif)$
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d	
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+# ñêëåéêà çåðêàë ñàéòà
+RewriteCond %{HTTP_HOST} ^www.sk-stroikov.ru$ [NC]
+RewriteRule ^(.*)$ http://sk-stroikov.ru/$1 [R=301,NC,L]
