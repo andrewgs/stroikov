@@ -1,4 +1,5 @@
 User-agent: *
+Sitemap: http://sk-stroikov.ru/sitemap.xml
 Host: sk-stroikov.ru
 
 # Google Image
