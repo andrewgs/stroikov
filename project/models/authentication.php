@@ -14,13 +14,21 @@ class Authentication extends CI_Model{
 		parent::__construct();
 	}
 	
-	function get_users_info($login){
-		$this->db->where('usr_id',$login);
+	function get_users_info($id){
+		$this->db->where('usr_id',$id);
 		$query = $this->db->get('users',1);
 		$data = $query->result_array();
 		if(isset($data[0])) return $data[0];
 		return FALSE;
-	}	
+	}
+	
+	function users_info($login){
+		$this->db->where('usr_login',$login);
+		$query = $this->db->get('users',1);
+		$data = $query->result_array();
+		if(isset($data[0])) return $data[0];
+		return FALSE;
+	}
 	
 	function changepassword($data){
 		

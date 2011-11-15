@@ -294,27 +294,28 @@ class Users_interface extends CI_Controller{
 		$pagevar['company']['index'] = $i;
 	/* ------------------------------------------------------------------------ */	
 		$pagevar['subsection'] = $this->subsectionmodel->get_cmp_data($pagevar['company']['cmp_id']);
-		
-		for($i = 0; $i < count($pagevar['subsection']); $i++){
-			$sbs_img[$i] = $this->imagesmodel->get_type_ones_image('subsection',$pagevar['subsection'][$i]['sbs_id']);
-			foreach($sbs_img[$i] as $img){
-				$pagevar['subsection'][$i]['slideshow_img_src'] = $img->img_src;
-				$pagevar['subsection'][$i]['slideshow_img_title'] = $img->img_title;
-				$pagevar['subsection'][$i]['slideshow_img_id'] = $img->img_id;
-			}
-			$j = 0;
-			if(isset($pagevar['subsection'][$i]['slideshow_img_id']) and !empty($pagevar['subsection'][$i]['slideshow_img_id'])){
-				$imglist = $this->imagesmodel->get_image_all_data('subsection',$pagevar['subsection'][$i]['sbs_id'],$pagevar['subsection'][$i]['slideshow_img_id']);			
-
-				foreach($imglist as $list){
-					$pagevar['sbsimages'][$i][$j]['id'] = $list->img_id;
-					$pagevar['sbsimages'][$i][$j]['image'] = $list->img_src;
-					$pagevar['sbsimages'][$i][$j]['title'] = $list->img_title;
-					$j++;
+		if($pagevar['subsection']):
+			for($i = 0; $i < count($pagevar['subsection']); $i++){
+				$sbs_img[$i] = $this->imagesmodel->get_type_ones_image('subsection',$pagevar['subsection'][$i]['sbs_id']);
+				foreach($sbs_img[$i] as $img){
+					$pagevar['subsection'][$i]['slideshow_img_src'] = $img->img_src;
+					$pagevar['subsection'][$i]['slideshow_img_title'] = $img->img_title;
+					$pagevar['subsection'][$i]['slideshow_img_id'] = $img->img_id;
 				}
+				$j = 0;
+				if(isset($pagevar['subsection'][$i]['slideshow_img_id']) and !empty($pagevar['subsection'][$i]['slideshow_img_id'])){
+					$imglist = $this->imagesmodel->get_image_all_data('subsection',$pagevar['subsection'][$i]['sbs_id'],$pagevar['subsection'][$i]['slideshow_img_id']);			
+	
+					foreach($imglist as $list){
+						$pagevar['sbsimages'][$i][$j]['id'] = $list->img_id;
+						$pagevar['sbsimages'][$i][$j]['image'] = $list->img_src;
+						$pagevar['sbsimages'][$i][$j]['title'] = $list->img_title;
+						$j++;
+					}
+				}
+				$pagevar['subsection'][$i]['index'] = $j;
 			}
-			$pagevar['subsection'][$i]['index'] = $j;
-		}
+		endif;
 		$this->load->view('users_interface/company',$pagevar);
 	}
 

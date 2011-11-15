@@ -77,7 +77,7 @@ class Admin_interface extends CI_Controller{
 				return FALSE;
 			else:
 				$_POST['submit'] = NULL;
-				$user = $this->authentication->get_users_info($_POST['login-name']);
+				$user = $this->authentication->users_info($_POST['login-name']);
 				if($user):
 					if($user['usr_password'] === md5($_POST['login-pass'])):
 	                	$this->session->set_userdata('logon','76f1847d0a99a57987156534634a1acf');

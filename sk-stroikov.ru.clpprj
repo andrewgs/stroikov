@@ -204,6 +204,22 @@
 				<treenode node="this;Php:Var Name;6;2;11;2;34;;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</phptree>
+			<jstree>
+				<treenode node="bg_alpha;JS:JS Var Name;30;89;38;89;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="close_all;JS:JS Var Name;76;89;85;89;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="document;JS:JS Var Name;27;85;35;85;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="my_speed;JS:JS Var Name;16;89;24;89;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="slideShow;JS:JS Var Name;44;89;53;89;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="slideSpeed;JS:JS Var Name;61;89;71;89;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="window;JS:JS Var Name;10;85;16;85;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</jstree>
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\users_interface\admin-panel.php" crc="-1868492269">
 			<phptree>
 				<treenode node="admin;Php:Var Name;9;0;15;0;34;;;v;;r;;d-1,-1;;b0,0;;m">
@@ -644,34 +660,6 @@
 				</treenode>
 			</jstree>
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\admin_interface\news_edit.php" crc="-1798310982">
-			<phptree>
-				<treenode node="baseurl;Php:Var Name;17;10;25;10;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-				<treenode node="news;Php:Var Name;19;15;24;15;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-				<treenode node="this;Php:Var Name;6;2;11;2;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-			</phptree>
-			<jstree>
-				<treenode node="css;JS:JS Var Name;45;72;48;72;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-				<treenode node="document;JS:JS Var Name;27;63;35;63;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-				<treenode node="element;JS:JS Var Name;33;78;40;78;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-				<treenode node="err;JS:JS Var Name;8;76;11;76;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-				<treenode node="event;JS:JS Var Name;33;75;38;75;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-				<treenode node="header;JS:JS Var Name;46;85;52;85;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-				<treenode node="i;JS:JS Var Name;31;78;32;78;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-				<treenode node="toolbar;JS:JS Var Name;30;72;37;72;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-				<treenode node="window;JS:JS Var Name;10;63;16;63;34;;;v;;r;;d-1,-1;;b0,0;;m">
-				</treenode>
-			</jstree>
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\admin_interface\login.php" crc="-556116997">
 			<phptree>
 				<treenode node="baseurl;Php:Var Name;23;21;31;21;34;;;v;;r;;d-1,-1;;b0,0;;m">
@@ -1534,14 +1522,16 @@
 					</treenode>
 				</treenode>
 			</phptree>
-		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\models\authentication.php" crc="-222133151">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\models\authentication.php" crc="2030947483">
 			<phptree>
-				<treenode node="Authentication;Php:Class Name;0;1;1;33;34;;;vCI_Model;;c;;r;;d37,1;;b0,0;;m">
+				<treenode node="Authentication;Php:Class Name;0;1;1;41;34;;;vCI_Model;;c;;r;;d37,1;;b0,0;;m">
 					<treenode node="__construct;Php:Function Name;1;11;2;14;34;;;v;;r;;d23,11;;b0,0;;m">
 					</treenode>
-					<treenode node="changepassword;Php:Function Name;1;24;2;32;34;;;v;;r;;d31,24;;b0,0;;mdata;;p">
+					<treenode node="changepassword;Php:Function Name;1;32;2;40;34;;;v;;r;;d31,32;;b0,0;;mdata;;p">
 					</treenode>
-					<treenode node="get_users_info;Php:Function Name;1;16;2;22;34;;;v;;r;;d32,16;;b0,0;;mlogin;;p">
+					<treenode node="get_users_info;Php:Function Name;1;16;2;22;34;;;v;;r;;d29,16;;b0,0;;mid;;p">
+					</treenode>
+					<treenode node="users_info;Php:Function Name;1;24;2;30;34;;;v;;r;;d28,24;;b0,0;;mlogin;;p">
 					</treenode>
 					<treenode node="usr_email;Php:Var Name;5;7;15;7;34;;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
@@ -1677,18 +1667,18 @@
 				</treenode>
 			</phptree>
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\core\index.html" crc="-1574479902">
-		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\controllers\users_interface.php" crc="-939313089">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\controllers\users_interface.php" crc="-282623431">
 			<phptree>
-				<treenode node="Users_interface;Php:Class Name;0;1;1;404;34;;;vCI_Controller;;c;;r;;d43,1;;b0,0;;m">
+				<treenode node="Users_interface;Php:Class Name;0;1;1;405;34;;;vCI_Controller;;c;;r;;d43,1;;b0,0;;m">
 					<treenode node="__construct;Php:Function Name;1;7;2;22;34;;;v;;r;;d23,7;;b0,0;;m">
 					</treenode>
 					<treenode node="about;Php:Function Name;1;53;2;66;34;;;v;;r;;d17,53;;b0,0;;m">
 					</treenode>
-					<treenode node="companyinfo;Php:Function Name;1;261;2;318;34;;;v;;r;;d23,261;;b0,0;;m">
+					<treenode node="companyinfo;Php:Function Name;1;261;2;319;34;;;v;;r;;d23,261;;b0,0;;m">
 					</treenode>
 					<treenode node="contacts;Php:Function Name;1;180;2;191;34;;;v;;r;;d20,180;;b0,0;;m">
 					</treenode>
-					<treenode node="formsendmail;Php:Function Name;1;365;2;384;34;;;v;;r;;d24,365;;b0,0;;m">
+					<treenode node="formsendmail;Php:Function Name;1;366;2;385;34;;;v;;r;;d24,366;;b0,0;;m">
 					</treenode>
 					<treenode node="index;Php:Function Name;1;24;2;51;34;;;v;;r;;d17,24;;b0,0;;m">
 					</treenode>
@@ -1702,11 +1692,11 @@
 					</treenode>
 					<treenode node="price;Php:Function Name;1;68;2;80;34;;;v;;r;;d17,68;;b0,0;;m">
 					</treenode>
-					<treenode node="sendmail;Php:Function Name;1;386;2;403;34;;;v;;r;;d46,386;;b0,0;;memail;;pmsg;;psubject;;pfrom;;p">
+					<treenode node="sendmail;Php:Function Name;1;387;2;404;34;;;v;;r;;d46,387;;b0,0;;memail;;pmsg;;psubject;;pfrom;;p">
 					</treenode>
 					<treenode node="units;Php:Function Name;1;148;2;178;34;;;v;;r;;d17,148;;b0,0;;m">
 					</treenode>
-					<treenode node="unitsinfo;Php:Function Name;1;320;2;363;34;;;v;;r;;d21,320;;b0,0;;m">
+					<treenode node="unitsinfo;Php:Function Name;1;321;2;364;34;;;v;;r;;d21,321;;b0,0;;m">
 					</treenode>
 					<treenode node="viewonesnews;Php:Function Name;1;240;2;259;34;;;v;;r;;d24,240;;b0,0;;m">
 					</treenode>
@@ -1717,7 +1707,7 @@
 				</treenode>
 			</phptree>
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\controllers\index.html" crc="-1574479902">
-		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\controllers\admin_interface.php" crc="716156921">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\controllers\admin_interface.php" crc="1451417565">
 			<phptree>
 				<treenode node="Admin_interface;Php:Class Name;0;1;1;1778;34;;;vCI_Controller;;c;;r;;d43,1;;b0,0;;m">
 					<treenode node="__construct;Php:Function Name;1;8;2;29;34;;;v;;r;;d23,8;;b0,0;;m">
