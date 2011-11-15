@@ -1,0 +1,23 @@
+User-agent: *
+Sitemap: http://sk-stroikov.ru/sitemap.xml
+Host: sk-stroikov.ru
+
+# Google Image
+User-agent: Googlebot-Image
+Disallow:
+
+# Yandex Image
+User-agent: YandexImages
+Disallow:
+
+# Yandex Media
+User-agent: YandexMedia
+Disallow:
+
+# Google AdSense
+User-agent: Mediapartners-Google*
+Disallow:
+
+# digg mirror
+User-agent: duggmirror
+Disallow: /

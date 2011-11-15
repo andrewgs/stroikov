@@ -3,7 +3,7 @@
 <?php $this->load->view('users_interface/head');?>
 <body>
     <div id="main-wrap">
-	<?php $this->load->view('users_interface/admin-panel');?>
+		<?php $this->load->view('users_interface/admin-panel');?>
 		<?php $this->load->view('users_interface/header');?>
 		<div id="content">
 			<div id="company-news">

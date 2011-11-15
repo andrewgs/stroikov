@@ -1,3 +1,4 @@
+<?php header("HTTP/1.1 404 Not Found"); ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru">
 	<head>
