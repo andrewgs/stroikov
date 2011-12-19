@@ -133,7 +133,7 @@
 				<treenode node="window;JS:JS Var Name;10;66;16;66;34;;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</jstree>
-		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\users_interface\index.php" crc="1435917838">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\users_interface\index.php" crc="-1334477237">
 			<phptree>
 				<treenode node="baseurl;Php:Var Name;17;14;25;14;34;;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
@@ -146,9 +146,9 @@
 				<treenode node="this;Php:Var Name;6;2;11;2;34;;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</phptree>
-		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\users_interface\header.php" crc="306011631">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\users_interface\header.php" crc="1602981149">
 			<phptree>
-				<treenode node="baseurl;Php:Var Name;29;3;37;3;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="baseurl;Php:Var Name;29;18;37;18;34;;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</phptree>
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\users_interface\head.php" crc="-2002599621">
@@ -169,7 +169,7 @@
 				<treenode node="attr;Php:Var Name;3;7;8;7;34;;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</phptree>
-		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\users_interface\footer.php" crc="1215505229">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\users_interface\footer.php" crc="-2133993834">
 			<phptree>
 				<treenode node="contacts;Php:Var Name;6;4;15;4;34;;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
@@ -1166,9 +1166,9 @@
 				</treenode>
 			</phptree>
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\index.html" crc="-1574479902">
-		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\error404.php" crc="-330247219">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\error404.php" crc="-167212736">
 			<phptree>
-				<treenode node="data;Php:Var Name;52;8;57;8;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="data;Php:Var Name;52;9;57;9;34;;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</phptree>
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\views\contact_new.php" crc="1743508331">
@@ -1596,7 +1596,7 @@
 				<treenode node="lang;Php:Var Name;0;1;5;1;34;;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</phptree>
-		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\language\russian\index.html" crc="149706907">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\language\russian\index.html" crc="-181173148">
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\language\russian\imglib_lang.php" crc="-2119264878">
 			<phptree>
 				<treenode node="lang;Php:Var Name;0;1;5;1;34;;;v;;r;;d-1,-1;;b0,0;;m">
@@ -1661,13 +1661,13 @@
 				<treenode node="message;Php:Var Name;13;30;21;30;34;;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</phptree>
-		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\errors\error_404.php" crc="-77631361">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\errors\error_404.php" crc="68030989">
 			<phptree>
-				<treenode node="base_url;Php:Var Name;3;12;12;12;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="base_url;Php:Var Name;3;13;12;13;34;;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</phptree>
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\core\index.html" crc="-1574479902">
-		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\controllers\users_interface.php" crc="-282623431">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\project\controllers\users_interface.php" crc="-658316192">
 			<phptree>
 				<treenode node="Users_interface;Php:Class Name;0;1;1;405;34;;;vCI_Controller;;c;;r;;d43,1;;b0,0;;m">
 					<treenode node="__construct;Php:Function Name;1;7;2;22;34;;;v;;r;;d23,7;;b0,0;;m">
@@ -6346,6 +6346,8 @@
 			</phptree>
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\core\index.html" crc="-1574479902">
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\core\.htaccess" crc="-643410220">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\sitemap.xml" crc="-1922894015">
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\robots.txt" crc="-1534252106">
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\index.php" crc="-279046421">
 			<phptree>
 				<treenode node="application_folder;Php:Var Name;1;74;20;74;34;;;v;;r;;d-1,-1;;b0,0;;m">
@@ -6354,5 +6356,7 @@
 				</treenode>
 			</phptree>
 		</csfile><csfile name="S:\home\sk-stroikov.ru\www\404.php" crc="356231422">
-		</csfile><csfile name="S:\home\sk-stroikov.ru\www\.htaccess" crc="-1450414719">
-		</csfile></codestructure></project>
+		</csfile><csfile name="S:\home\sk-stroikov.ru\www\.htaccess" crc="1374239665">
+		</csfile></codestructure><dbgurls>
+	</dbgurls>
+</project>
